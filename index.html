@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	.circle-wrapper,
+	.circle-wrapper img {
+	  display: inline-block;
+	  width: 80px;
+	  height: 80px;
+	  border-radius: 100%;
+	  -webkit-transition: .3s;
+	  transition: .3s;
+	}
+
+	.circle-wrapper {
+	  border: 1px solid #ddd;
+	  position: relative;
+	  overflow: hidden;
+	}
+
+	.circle-wrapper img {
+	  position: absolute;
+	}
+
+	.circle-wrapper img:hover {
+	  -webkit-transform: scale(1.5);
+	  transform: scale(1.5);
+	}
+	</style>
+</head>
+<body>
+<div class="circle-wrapper">
+  <img src="./404.jpg" >
+</div>
+</body>
+</html>
